@@ -1,4 +1,5 @@
 # rating
+<<<<<<< HEAD
 
 > rating review
 
@@ -21,3 +22,6 @@ $ npm run generate
 
 For detailed explanation on how things work, checkout the [Nuxt.js docs](https://github.com/nuxt/nuxt.js).
 
+=======
+rating app using vue js
+>>>>>>> 4cd5adc3d0ab209822bbc415fbed75a0057aa0d9
