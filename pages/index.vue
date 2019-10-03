@@ -1,65 +1,50 @@
 <template>
-  <section class="container">
-    <div>
-      <app-logo/>
-      <h1 class="title">
-        rating
-      </h1>
-      <h2 class="subtitle">
-        rating review
-      </h2>
-      <div class="links">
-        <a
-          href="https://nuxtjs.org/"
-          target="_blank"
-          class="button--green">Documentation</a>
-        <a
-          href="https://github.com/nuxt/nuxt.js"
-          target="_blank"
-          class="button--grey">GitHub</a>
+  <div class="container">
+  <div class="row">
+    <div class="col">
+    </div>
+    <div class="col-8">
+      <div class="form-group">
+        <h1><label for="exampleFormControlTextarea1">Review</label></h1>
+      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Tulis Review Terbaikmu"></textarea>
+    </div>
+    </div>
+    <div class="col">
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col">
+    </div>
+    <div class="col-8">
+      <div class="row">
+        <div class="col">
+        <input type="file" class="form-control-file" id="exampleFormControlFile1">
+        </div>
+        <div class="col-2">
+          <button type="submit" class="btn btn-primary">Kirim</button>
+        </div>     
+    </div>
+    </div>
+    <div class="col">
+    </div>
+    </div>  
+    <hr>
+
+    <div class="row">
+    <div class="col">
+    </div>
+    <div class="col-8">
+      <div class="card bg-light mb-3">
+     <div class="card-body">
+    <h5 class="card-title">Nama</h5>
+    <p class="card-text">Bagus nih!</p>
+    </div>
       </div>
     </div>
-  </section>
+    <div class="col">
+    </div>
+  </div>
+  
+  </div>
 </template>
-
-<script>
-import AppLogo from '~/components/AppLogo.vue'
-
-export default {
-  components: {
-    AppLogo
-  }
-}
-</script>
-
-<style>
-.container {
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-
-.title {
-  font-family: "Quicksand", "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; /* 1 */
-  display: block;
-  font-weight: 300;
-  font-size: 100px;
-  color: #35495e;
-  letter-spacing: 1px;
-}
-
-.subtitle {
-  font-weight: 300;
-  font-size: 42px;
-  color: #526488;
-  word-spacing: 5px;
-  padding-bottom: 15px;
-}
-
-.links {
-  padding-top: 15px;
-}
-</style>
-
